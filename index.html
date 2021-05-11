@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css"
+        integrity="sha512-EZLkOqwILORob+p0BXZc+Vm3RgJBOe1Iq/0fiI7r/wJgzOFZMlsqTa29UEl6v6U6gsV4uIpsNZoV32YZqrCRCQ=="
+        crossorigin="anonymous" />
+    <title>Number Guesser</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="game_ui">
+            <h1 class="heading">Number Guesser</h1>
+            <p class="guess_detail">Guess The Number between <span class="min_val"></span> to <span
+                    class="max_val"></span> . </p>
+            <div class="form-group">
+                <input type="number" id="guess_number" placeholder="Guess Number...">
+                <input type="submit" value="SUBMIT" id="btn">
+            </div>
+            <p class="err_msg"></p>
+        </div>
+    </div>
+
+    <script src="./app.js"></script>
+</body>
+
+</html>
